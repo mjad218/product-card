@@ -188,10 +188,10 @@ main {
   }
   .card {
     gap: 20px;
-    padding-inline: 0 1.5em;
   }
   .card .details {
     height: calc(100% - 40px - 350px);
+    padding-inline: 0 1.5em;
   }
   .card .thumbnail {
     height: 350px;
