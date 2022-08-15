@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html,
+p,
+div,
+picture,
+section,
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 16px;
+  --bg-color: hsl(30, 38%, 92%);
+  --green: hsl(158, 36%, 37%);
+  --dark-blue: hsl(212, 21%, 14%);
+  --darker-blue: hsl(228, 12%, 48%);
+}
+
+body {
+  background-color: var(--bg-color);
+}
